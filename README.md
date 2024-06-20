@@ -30,6 +30,8 @@ Here's a step-by step instruction on how to use the hold-time analyzer:
 
 **Note:** The PNG files will have the same name as the replay files used to generate them. (eg. `replay1.osr` becomes `replay1.png`)
 
+---
+
 If an error occured, the application will report it to you in the console. Additionally, a detailed error report TXT file is created in the `output` folder, with the same name as the replay that caused the error. In this case, feel free to report it in the [issues section](https://github.com/minisbett/holdtimeanalyzer/issues) of this repository.
 
 ## Development
