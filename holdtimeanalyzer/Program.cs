@@ -9,7 +9,14 @@ using HoldTimes = System.Collections.Generic.Dictionary<int, int>;
 
 public class Program
 {
+  /// <summary>
+  /// The one-based index of the currently processed replay.
+  /// </summary>
   private static int _current = 0;
+  
+  /// <summary>
+  /// The total amount of replays to process.
+  /// </summary>
   private static int _total = 0;
 
   public static void Main(string[] args)
@@ -80,9 +87,9 @@ public class Program
     plot.Legend.Alignment = Alignment.UpperRight;
 
     // Configure the limits for the axes, depending on the bounds of the hold times.
-    plot.Axes.Bottom.Min = filteredKey1.Concat(filteredKey2).Min(x => x.Key);
+    plot.Axes.Bottom.Min = filteredKey1.Concat(filteredKey2).Min(x => x.Key) - 1;
     plot.Axes.Bottom.Max = filteredKey1.Concat(filteredKey2).Max(x => x.Key) + 1;
-    plot.Axes.Left.Min = filteredKey1.Concat(filteredKey2).Min(x => x.Value);
+    plot.Axes.Left.Min = 0;
     plot.Axes.Left.Max = (int)(filteredKey1.Concat(filteredKey2).Max(x => x.Value) * 1.05) + 1;
 
     // Add the exponential average lines for both keys.
