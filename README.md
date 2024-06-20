@@ -21,7 +21,7 @@ An easy-to-use bulk hold-time analyzer, generating graphs for the hold times of 
 
 To get started, head over to the [latest release page](https://github.com/minisbett/holdtimeanalyzer/releases/latest) on GitHub. From there, locate and download the ZIP file (<u>ending with `.zip`</u>). Once the download is complete, extract the ZIP file.
 
-On the first start of the application, a `replays` folder will be created in the same directory as the `holdtimanalyzer.exe` file.
+On the first start of the application, a `replays` folder will be created in the same directory as the `.exe` file.
 
 Here's a step-by step instruction on how to use the hold-time analyzer:
 1. Place all all replays you'd like to generate a graph for in the `replays` folder.
