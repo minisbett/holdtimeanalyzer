@@ -1,6 +1,6 @@
 <div align="center">
 
-![Icon](.github/assets/icon.png)
+<img src="https://github.com/minisbett/holdtimeanalyzer/assets/39670899/a1fc063e-41aa-409e-a3d1-4342f922f2f1" width="192">
 
 # Hold-Time Analyzer
 
@@ -10,7 +10,7 @@
 [![Latest Release](https://img.shields.io/github/v/release/minisbett/holdtimeanalyzer?color=ff5867
 )](https://github.com/minisbett/holdtimeanalyzer/releases/latest)
 
-An easy-to-use, bulk hold-time analyzer, generating graphs for the hold times of osu!standard replays.
+An easy-to-use bulk hold-time analyzer, generating graphs for the hold times of osu!standard replays.
 
 [Usage](#usage) • [Development](#development) • [Demo](#demo)<br/>
 
