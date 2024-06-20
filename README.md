@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/minisbett/holdtimeanalyzer/assets/39670899/a1fc063e-41aa-409e-a3d1-4342f922f2f1" width="192">
+<img src="https://github.com/minisbett/holdtimeanalyzer/assets/39670899/76878cdf-26e0-47b4-b44e-f184a118a5cb" width="192">
 
 # Hold-Time Analyzer
 
