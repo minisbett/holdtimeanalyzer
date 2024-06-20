@@ -47,7 +47,7 @@ internal static class HoldTimeAnalyzer
       {
         int holdTime = frame.Offset - pressedFrame.Offset;
         holdTimes.TryAdd(holdTime, 0); // Ensure the hold time is in the dictionary.
-        holdTimes[frame.Offset - pressedFrame.Offset]++;
+        holdTimes[holdTime]++;
         pressedFrame = null; // reset the pressed frame again to measure the next hold time.
       }
     }
